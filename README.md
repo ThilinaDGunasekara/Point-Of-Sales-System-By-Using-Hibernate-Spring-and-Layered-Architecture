@@ -40,7 +40,6 @@ Author use following technologies to made this system.
         JavaFX
         Cryptography
         MySQL
-        Loggin
         Jasper Repors
         Regular Expressions
         Hibenate
