@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" fx:id="root" prefHeight="423.0" prefWidth="600.0" style="-fx-background-color: white;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep.pos.controller.MainFormController">
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="423.0" prefWidth="600.0" style="-fx-background-color: white;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep.pos.controller.MainFormController">
    <children>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -65,13 +65,13 @@
             <Font size="12.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="8.0" layoutY="370.0" prefHeight="16.0" prefWidth="577.0" text="Copyright 2019 IJSE - DEP 4 Version">
+      <Label alignment="CENTER" layoutX="8.0" layoutY="370.0" prefHeight="16.0" prefWidth="577.0" text="2019 IJSE - DEP 4 ">
          <font>
             <Font size="10.0" />
          </font>
       </Label>
-      <JFXButton fx:id="btnRestore" layoutX="189.0" layoutY="337.0" onAction="#btnRestore_OnAction" text="Restore" />
-      <JFXButton fx:id="btnBackup" layoutX="303.0" layoutY="337.0" onAction="#btnBackup_OnAction" text="Backup" />
-      <ProgressIndicator fx:id="pgb" layoutX="36.0" layoutY="69.0" />
+      <JFXButton fx:id="btnRestore" layoutX="189.0" layoutY="337.0" onAction="#btnRestore_OnAction" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: #09e03f;" text="Restore" />
+      <JFXButton fx:id="btnBackup" layoutX="324.0" layoutY="337.0" onAction="#btnBackup_OnAction" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: #ff0a33;" text="Backup" />
+      <ProgressIndicator fx:id="pgb" layoutX="280.0" layoutY="238.0" prefHeight="35.0" prefWidth="33.0" />
    </children>
 </AnchorPane>
